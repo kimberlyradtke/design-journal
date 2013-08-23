@@ -1,0 +1,207 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face
+{
+font-family: "district pro";
+src: url(fonts/DistProTh.otf);
+}
+
+@font-face
+{
+font-family: dubeil;
+src: url(fonts/Dubeil.ttf);
+}
+
+body {
+	font-family: "district pro";
+	background-color: #3E3D40;
+	margin: 0;
+	padding: 0;
+	color: #1D1D1E;
+	font-size: 15px;
+}
+
+ul, ol, dl { 
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;	 
+	padding-right: 15px;
+	padding-left: 15px; 
+}
+
+a img { 
+	border: none;
+}
+
+a:link {
+	color: #1d1d1e;
+	text-decoration: underline; 
+}
+
+a:visited {
+	color: #ffffff;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus { 
+	text-decoration: none;
+}
+
+.container {
+	width: 960px;
+	background-color: #fff;
+	margin: 0 auto; 
+}
+
+.content {
+	padding: 10px 0;
+}
+
+/* ~~ miscellaneous float/clear classes ~~ */
+.fltrt {  /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	clear: right;
+}
+.fltlft { /* this class can be used to float an element left in your page. The floated element must precede the element it should be next to on the page. */
+	float: left;
+	clear: left;
+}
+.clearfloat { /* this class can be placed on a <br /> or empty div as the final element following the last floated div (within the #container) if the overflow:hidden on the .container is removed */
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+
+h1#logo {
+	color: #53A54F;
+	text-align: center;
+	font-family: "dubeil";
+	font-size: 60px;
+	width: 960px;
+	height: 65px;
+	margin: 10px;
+}
+
+span.stretch {
+    display:inline-block;
+    transform:scale(1.2,1); /* W3C */
+    -webkit-transform:scale(1.2,1); /* Safari and Chrome */
+    -moz-transform:scale(1.2,1); /* Firefox */
+    -ms-transform:scale(1.2,1); /* IE 9 */
+    -o-transform:scale(1.2,1); /* Opera */
+}
+
+h2#name {
+	color: #3E3D40;
+	text-align: center;
+	font-family: "district pro";
+	font-size: 16px;
+	margin-top: 10px;
+}
+
+#divider {
+	width: 960px;
+	height: 4px;
+}
+
+.home_images {
+	margin-top: 40px;
+}
+
+.home_images ul {
+	list-style: none;
+}
+	
+.home_images ul li {
+	display: inline-block;
+}
+
+
+.rightpadding {
+	padding-right: 11px;
+}
+
+.bottompadding {
+	padding-bottom: 9px;
+}
+
+div.footer {
+	background-color: #53A54F;
+	width: 960px;
+	height: 50px;
+}
+
+.footer ul {
+	text-align: center;
+	padding-top: 20px;
+}
+
+.footer li {
+	display: inline;
+	text-align: center;
+	padding-right: 8px;
+	padding-left: 8px;
+	text-decoration: underline;
+}
+
+h3.page_title {
+	font-family: dubeil;
+	font-size: 26px;
+	padding-left: 10px;
+	padding-top: 30px;
+}
+
+h4.p_header{
+	font-size: 18px;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+div.website_content {
+	float: right;
+	clear: left;
+	margin-top: 120px;
+}
+
+img.page_image {
+	margin-right: 20px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #000000;
+}
+
+div.page_content {
+	width: 500px;
+	padding-left: 20px;
+}
+
+.website_link {
+	font-family: dubeil;
+}
+
+p {
+	line-height: 150%
+}
+
+.section2 {
+	margin-top: 40px;
+}
+
+p.link {
+	text-align: right;
+	margin-right: 5px;
+}
+
+a.website_link:visited {
+	color: #53A54F;
+	text-decoration: underline;
+}
+
+.list_images {
+	padding-top: 5px;
+}
+
+
